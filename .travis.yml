@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: heroku
+  api_key:
+    secure: U2UCzyhs2r6aouCCuwaXxmMUCbEQTm88g+w9klqw18sh+IUhZ6BjaYzyfo/5L03JI+PhaNKcjxJSftRW7XMK7ZLdJLCX3oYFgaIjPokg2nEWQtVzpXpRqmSK7PWP7UgYav0VIUOafY6ji6/Tc4VKGqpPwW8HDl8kKdzO+Sbb2oVgTXrdJrlmREeNRxXKatxrGvTqgvE2xSje/syUlcQQwGQ4b5jQSuKRO1pHdqmGsPy86n/CzG3aEJX3Mc8epBdQ1fTUb5KoW+Br3dZJS99gLkpWHZ5V8PVjlvz8GlB9fjQpnDGfvALusT89z/pFjNDCWSt9rcgCLJoeqtqAiZoJXfTWKsGWL13TTTXAznNVd1NpcgticFZB8H1BkkJnPJI1MW2ts6H94leEnU3zl4s5+hF91ypfYhqEX/xJOvgwDLscxAW7gONgV2nh9ReEVaFIbMxBOfaDJ7HDCECm4/lRF/VOBpijJrQehdpm/FpcwBj387kMJGkMLj/xwuHTlQghMeOcaSMa/CjZ6B55RL/nBqMknZ3lpTVdnxGniWg74OmKXq+yK4+EMteQ4bmR0SwHQtYnwu1/lTA9/rorCfZGoFS5UeUPHwRfIt6VwU9QX4CmgZTi98GIB5lM+nFBzimQgEPf8c8oJDiShlXanlJjiCehGSVXQrtIDk887gR93kc=
+  app: ancient-crag-56371
+  on:
+    repo: allanlykkechristensen/converge-newswire
